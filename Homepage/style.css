@@ -1,0 +1,47 @@
+.midtop{
+    border-radius: 30%;
+}
+html, body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .top {
+    background-color: lightgray;
+    
+    max-width: 70%;
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+  }
+  
+  .midtop, .midmid {
+    background-color: orange;
+    margin: 5px;
+    max-width: 50%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+   .midtop {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .midmid tr:nth-child(odd) {
+    background-color: #ccc
+  }
+
+  .midbot {
+      text-align: justify;
+  }
+
+  body {
+      background: black;
+  }
